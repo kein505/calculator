@@ -49,8 +49,6 @@ namespace Kalkulator1
 
             Console.WriteLine("Ваш ответ: ");
             Console.WriteLine(result);
-
-
         }
     }
 }
