@@ -26,6 +26,7 @@ namespace Kalkulator1
             var result = a + b;
             Console.WriteLine(result);
 
+
         }
     }
 }
