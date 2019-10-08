@@ -45,6 +45,7 @@ namespace Kalkulator1.Tests
                 foreach (var x in result)
                 {
                     Assert.AreEqual(0, a * x * x + b * x + c, 1e-10);
+
                 }
             }
         }

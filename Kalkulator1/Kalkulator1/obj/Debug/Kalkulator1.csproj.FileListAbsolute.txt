@@ -1,0 +1,10 @@
+F:\workspace\git_workspace\calculator\Kalkulator1\Kalkulator1\bin\Debug\Kalkulator1.exe.config
+F:\workspace\git_workspace\calculator\Kalkulator1\Kalkulator1\bin\Debug\Kalkulator1.exe
+F:\workspace\git_workspace\calculator\Kalkulator1\Kalkulator1\bin\Debug\Kalkulator1.pdb
+F:\workspace\git_workspace\calculator\Kalkulator1\Kalkulator1\bin\Debug\Solver.dll
+F:\workspace\git_workspace\calculator\Kalkulator1\Kalkulator1\bin\Debug\Solver.pdb
+F:\workspace\git_workspace\calculator\Kalkulator1\Kalkulator1\obj\Debug\Kalkulator1.csprojAssemblyReference.cache
+F:\workspace\git_workspace\calculator\Kalkulator1\Kalkulator1\obj\Debug\Kalkulator1.csproj.CoreCompileInputs.cache
+F:\workspace\git_workspace\calculator\Kalkulator1\Kalkulator1\obj\Debug\Kalkulator1.csproj.CopyComplete
+F:\workspace\git_workspace\calculator\Kalkulator1\Kalkulator1\obj\Debug\Kalkulator1.exe
+F:\workspace\git_workspace\calculator\Kalkulator1\Kalkulator1\obj\Debug\Kalkulator1.pdb

@@ -21,10 +21,35 @@ namespace Kalkulator1
             //Console.WriteLine(result[1]);
             //Console.ReadKey();
 
+            Console.WriteLine("Введите первое число: ");
             var a = double.Parse(Console.ReadLine());
+            Console.WriteLine("Введите операцию: ");
+            var c = char.Parse(Console.ReadLine());
+            Console.WriteLine("Введите второе число: ");
             var b = double.Parse(Console.ReadLine());
-            var result = a + b;
+            double result = 0;
+            if (c=='+')
+            {
+                result = a + b;
+            }
+            else if (c == '-')
+            {
+                result = a - b;
+            }
+            else if (c == '*')
+            {
+                result = a * b;
+            }
+            else if (c == '/')
+            {
+                result = a / b;
+            }
+            else
+                Console.WriteLine("Вы ввели неверную операцию: ");
+
+            Console.WriteLine("Ваш ответ: ");
             Console.WriteLine(result);
+
 
         }
     }

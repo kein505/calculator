@@ -1,0 +1,6 @@
+F:\workspace\git_workspace\calculator\Kalkulator1\Solver\bin\Debug\Solver.dll
+F:\workspace\git_workspace\calculator\Kalkulator1\Solver\bin\Debug\Solver.pdb
+F:\workspace\git_workspace\calculator\Kalkulator1\Solver\obj\Debug\Solver.csprojAssemblyReference.cache
+F:\workspace\git_workspace\calculator\Kalkulator1\Solver\obj\Debug\Solver.csproj.CoreCompileInputs.cache
+F:\workspace\git_workspace\calculator\Kalkulator1\Solver\obj\Debug\Solver.dll
+F:\workspace\git_workspace\calculator\Kalkulator1\Solver\obj\Debug\Solver.pdb
