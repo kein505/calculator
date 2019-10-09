@@ -4,3 +4,9 @@ F:\workspace\git_workspace\calculator\Kalkulator1\Solver\obj\Debug\Solver.csproj
 F:\workspace\git_workspace\calculator\Kalkulator1\Solver\obj\Debug\Solver.csproj.CoreCompileInputs.cache
 F:\workspace\git_workspace\calculator\Kalkulator1\Solver\obj\Debug\Solver.dll
 F:\workspace\git_workspace\calculator\Kalkulator1\Solver\obj\Debug\Solver.pdb
+C:\GitStack\repositories\git_calculator\Kalkulator1\Solver\bin\Debug\Solver.dll
+C:\GitStack\repositories\git_calculator\Kalkulator1\Solver\bin\Debug\Solver.pdb
+C:\GitStack\repositories\git_calculator\Kalkulator1\Solver\obj\Debug\Solver.csprojAssemblyReference.cache
+C:\GitStack\repositories\git_calculator\Kalkulator1\Solver\obj\Debug\Solver.csproj.CoreCompileInputs.cache
+C:\GitStack\repositories\git_calculator\Kalkulator1\Solver\obj\Debug\Solver.dll
+C:\GitStack\repositories\git_calculator\Kalkulator1\Solver\obj\Debug\Solver.pdb

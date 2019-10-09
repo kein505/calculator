@@ -8,3 +8,13 @@ F:\workspace\git_workspace\calculator\Kalkulator1\Kalkulator1\obj\Debug\Kalkulat
 F:\workspace\git_workspace\calculator\Kalkulator1\Kalkulator1\obj\Debug\Kalkulator1.csproj.CopyComplete
 F:\workspace\git_workspace\calculator\Kalkulator1\Kalkulator1\obj\Debug\Kalkulator1.exe
 F:\workspace\git_workspace\calculator\Kalkulator1\Kalkulator1\obj\Debug\Kalkulator1.pdb
+C:\GitStack\repositories\git_calculator\Kalkulator1\Kalkulator1\bin\Debug\Kalkulator1.exe.config
+C:\GitStack\repositories\git_calculator\Kalkulator1\Kalkulator1\bin\Debug\Kalkulator1.exe
+C:\GitStack\repositories\git_calculator\Kalkulator1\Kalkulator1\bin\Debug\Kalkulator1.pdb
+C:\GitStack\repositories\git_calculator\Kalkulator1\Kalkulator1\bin\Debug\Solver.dll
+C:\GitStack\repositories\git_calculator\Kalkulator1\Kalkulator1\bin\Debug\Solver.pdb
+C:\GitStack\repositories\git_calculator\Kalkulator1\Kalkulator1\obj\Debug\Kalkulator1.csprojAssemblyReference.cache
+C:\GitStack\repositories\git_calculator\Kalkulator1\Kalkulator1\obj\Debug\Kalkulator1.csproj.CoreCompileInputs.cache
+C:\GitStack\repositories\git_calculator\Kalkulator1\Kalkulator1\obj\Debug\Kalkulator1.csproj.CopyComplete
+C:\GitStack\repositories\git_calculator\Kalkulator1\Kalkulator1\obj\Debug\Kalkulator1.exe
+C:\GitStack\repositories\git_calculator\Kalkulator1\Kalkulator1\obj\Debug\Kalkulator1.pdb

@@ -5767,23 +5767,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kein\\.nuget\\packages\\": {},
+    "C:\\Users\\Kai\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\workspace\\git_workspace\\calculator\\Kalkulator1\\NUnit_Kalkulator1.Tests\\NUnit_Kalkulator1.Tests.csproj",
+      "projectUniqueName": "C:\\GitStack\\repositories\\git_calculator\\Kalkulator1\\NUnit_Kalkulator1.Tests\\NUnit_Kalkulator1.Tests.csproj",
       "projectName": "NUnit_Kalkulator1.Tests",
-      "projectPath": "F:\\workspace\\git_workspace\\calculator\\Kalkulator1\\NUnit_Kalkulator1.Tests\\NUnit_Kalkulator1.Tests.csproj",
-      "packagesPath": "C:\\Users\\Kein\\.nuget\\packages\\",
-      "outputPath": "F:\\workspace\\git_workspace\\calculator\\Kalkulator1\\NUnit_Kalkulator1.Tests\\obj\\",
+      "projectPath": "C:\\GitStack\\repositories\\git_calculator\\Kalkulator1\\NUnit_Kalkulator1.Tests\\NUnit_Kalkulator1.Tests.csproj",
+      "packagesPath": "C:\\Users\\Kai\\.nuget\\packages\\",
+      "outputPath": "C:\\GitStack\\repositories\\git_calculator\\Kalkulator1\\NUnit_Kalkulator1.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kein\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kai\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5796,8 +5796,8 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "F:\\workspace\\git_workspace\\calculator\\Kalkulator1\\Solver\\Solver.csproj": {
-              "projectPath": "F:\\workspace\\git_workspace\\calculator\\Kalkulator1\\Solver\\Solver.csproj"
+            "C:\\GitStack\\repositories\\git_calculator\\Kalkulator1\\Solver\\Solver.csproj": {
+              "projectPath": "C:\\GitStack\\repositories\\git_calculator\\Kalkulator1\\Solver\\Solver.csproj"
             }
           }
         }

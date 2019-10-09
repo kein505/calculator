@@ -22,8 +22,7 @@ namespace Solver
                 return new[] { -b/(2 * a) };
             }
             else
-                return new double[0];
-            
+                return new double[0];           
         }
     }
 }
