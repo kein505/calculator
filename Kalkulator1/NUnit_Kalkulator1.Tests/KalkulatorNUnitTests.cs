@@ -1,3 +1,4 @@
+using System;
 using NUnit.Framework;
 using Solver;
 
@@ -77,6 +78,25 @@ namespace NUnit_Kalkulator1.Tests
             var result = CalculateOperationSolver.Solve(a, b, c);
 
             Assert.AreEqual(expectedResult, result);
+        }
+
+        [Test]
+        public void FunctionTest()
+        {
+            for (int i = 0; i < 100; i++)
+            {
+                string[] operation = {"+", "-", "*", "/", "sqrt"};
+                var rnd = new Random();
+                var a = rnd.NextDouble() * 10;
+                string b = rnd.NextDouble() * 10;
+                var c = rnd.NextDouble() * 10;
+                var result = CalculateOperationSolver.Solve(a, b, c);
+               // foreach (var x in result)
+               // {
+                    Assert.AreEqual(0, result, 1e-10);
+
+               // }
+            }
         }
     }   
 }
