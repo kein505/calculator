@@ -1,4 +1,5 @@
 using System;
+using Newtonsoft.Json.Linq;
 using NUnit.Framework;
 using Solver;
 
@@ -52,50 +53,98 @@ namespace NUnit_Kalkulator1.Tests
         public void Negative_DelenieNaNull_Test()
         {
             var result = CalculateOperationSolver.Solve(1, "/", 0);
-            string expectedResult = "бесконечность";
-            Assert.AreEqual(expectedResult, result);
+           // string expectedResult = "бесконечность";
+            Assert.AreEqual(0, result);
+        }
+        [Test]
+        public void Negative_DelenieNullNaNull_Test()
+        {
+            var result = CalculateOperationSolver.Solve(0, "/", 0);
+            // string expectedResult = "бесконечность";
+            Assert.AreEqual(0, result);
         }
 
-        [TestCase(1, "+", 2, 3)]
+        [TestCase(-10, "+", -10, -20)]
         [TestCase(3, "-", 2, 1)]
         [TestCase(1, "*", 2, 2)]
         [TestCase(1, "/", 2, 0.5)]
-        [TestCase(16, "sqrt", 2, 4)]
+        [TestCase(16, "sqrt", 0, 4)]
+        [TestCase(16, "square", 0, 256)]
+        [TestCase(2, "1/x", 0, 0.5)]
+        [TestCase(1.564, "*", 0, 0)]
+        [TestCase(5.3, "*", 2.8, 14.84)]
+        [TestCase(-3, "-", 2, -5)]
+        [TestCase(-3, "*", 2, -6)]
+
         public void Pasitive_TestCases(double a, string b, double c, double expectedResult)
         {
                 var result = CalculateOperationSolver.Solve(a, b, c);
 
-                Assert.AreEqual(expectedResult, result);
+                Assert.AreEqual(expectedResult, result, 1e-10);
 
                 //for (int i = 0; i < result.Length; i++)
                 //    Assert.AreEqual(expectedResult[i], result[i]);
         }
 
-        [TestCase("q", "/", 2, 0)]
-       // [TestCase(16, "/", 0, "бесконечность")]
-        public void Negative_TestCases(double a, string b, double c, double expectedResult)
-        {
-            var result = CalculateOperationSolver.Solve(a, b, c);
+       // [TestCase("g", "/", 2, 0)]
+       //// [TestCase(16, "/", 0, "бесконечность")]
+       // public void Vvod_ne_chisla_Negative_TestCases(double a, string b, double c, double expectedResult)
+       // {
+       //     var result = CalculateOperationSolver.Solve(a, b, c);
 
-            Assert.AreEqual(expectedResult, result);
-        }
+       //     Assert.AreEqual(expectedResult, result);
+       // }
 
         [Test]
         public void FunctionTest()
         {
             for (int i = 0; i < 100; i++)
             {
-                string[] operation = {"+", "-", "*", "/", "sqrt"};
+                string[] operation = {"+", "-", "*", "/", "sqrt", "square", "1/x" }; //, "sqrt"
                 var rnd = new Random();
                 var a = rnd.NextDouble() * 10;
-                string b = rnd.NextDouble() * 10;
                 var c = rnd.NextDouble() * 10;
-                var result = CalculateOperationSolver.Solve(a, b, c);
-               // foreach (var x in result)
-               // {
-                    Assert.AreEqual(0, result, 1e-10);
 
-               // }
+                foreach (var b in operation)
+                {
+                    var result = CalculateOperationSolver.Solve(a, b, c);
+
+                    if (b == "+")  //a+c
+                    {
+                        Assert.AreEqual(a, result-c, 1e-10);
+                    }
+                    else if (b == "-") //a-c
+                    {
+                        Assert.AreEqual(a, result + c, 1e-10);
+                    }
+                    else if (b == "*") //a*c
+                    {
+                        Assert.AreEqual(a, result / c, 1e-10);
+                    }
+                    else if (b == "/")  // a/c
+                    {
+                        if (c != 0)
+                            Assert.AreEqual(a, result * c, 1e-10);
+                        else
+                        {
+                            Console.WriteLine("Деление на 0 невозможно! ");
+                            Assert.AreEqual(0, result, 1e-10);
+                        }
+                    }
+                    else if (b == "sqrt")
+                    {
+                        Assert.AreEqual(a, Math.Pow(result, 2.0), 1e-10);  //Math.Pow(a, 2.0);
+                    }
+                    else if (b == "square")
+                    {
+                        Assert.AreEqual(a, Math.Sqrt(result), 1e-10);
+                    }
+                    else if (b == "1/x")
+                    {
+                        Assert.AreEqual(1, result * a, 1e-10);
+                    }
+
+                }
             }
         }
     }   

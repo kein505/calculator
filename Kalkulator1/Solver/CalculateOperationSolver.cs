@@ -26,11 +26,21 @@ namespace Solver
                 }
                 else if (c == "/")
                 {
-                    return (a / b);
+                    if (b != 0)
+                        return (a / b);
+                    else
+                    {
+                        Console.WriteLine("Деление на 0 невозможно! ");
+                        return 0;
+                    }
                 }
                 else if (c == "sqrt")
                 {
                     return Math.Sqrt(a);
+                }
+                else if (c == "square")
+                {
+                    return Math.Pow(a,2.0);
                 }
                 else if (c == "1/x")
                 {
